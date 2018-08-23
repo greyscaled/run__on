@@ -1,0 +1,39 @@
+{
+  "name": "run__on",
+  "version": "0.0.0",
+  "description": "A variant of mad libs.",
+  "homepage": "https://github.com/vapurrmaid/run__on#readme",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vapurrmaid/run__on/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Vapurrmaid",
+    "email": "vapurrmaid@gmail.com",
+    "url": "https://github.com/vapurrmaid"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vapurrmaid/run__on.git"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg-promise": "^8.4.6"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "cross-env": "^5.2.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  },
+  "engines": {
+    "node": ">=10.0"
+  },
+  "private": true
+}

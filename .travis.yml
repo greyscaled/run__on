@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - "node"
+services:
+  - postgresql
+addons:
+  postgresql: "10"
+  apt:
+    packages:
+      - postgresql-10
+      - postgresql-client-10
+env:
+  global:
+    - PGPORT=5433
+    - DB_NAME=runon_test
+    - DB_USER=runon
+before_install:
+  - npm install -g standard
+before_script:
+  - psql --command="CREATE USER ${DB_USER};"
+  - psql --command="CREATE DATABASE ${DB_NAME} WITH OWNER = ${DB_USER};"
