@@ -37,7 +37,8 @@ Each week a pull request covering a specific topic is made with an accompanying 
 
 1.  Setting Up CI and Project Infrastructure [article](https://medium.com/@vapurrmaid/getting-started-with-travis-npm-linting-and-greenkeeper-run-on-part-1-7a2a1a228d3a)
 2. Setting up Heroku Postgres [article](https://medium.com/@vapurrmaid/getting-started-with-heroku-postgres-and-pgadmin-run-on-part-2-90d9499ed8fb)
-3. Creating an Express Server (Avail 2018-09-03)
+3. Creating an Express Server [article](https://medium.com/@vapurrmaid/creating-an-express-server-run-on-part-3-f5e1dc7c6570) [PR](https://github.com/vapurrmaid/run__on/pull/3)
+4. Developing a RESTful API with Express (Avail 09-10-2018)
 
 ## CS Weekly
 RUN__ON is a mini-series that is in the spirit of CS Weekly, a manifesto towards committing oneself to weekly programmatic explorations. The original article is found [here](https://medium.com/@vapurrmaid/code-something-weekly-how-and-why-44640d279ca1)
