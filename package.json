@@ -33,7 +33,7 @@
     "pug": "^2.0.3"
   },
   "devDependencies": {
-    "assert": "^1.4.1",
+    "assert": "^1.5.0",
     "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.3"
